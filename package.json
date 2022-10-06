@@ -1,0 +1,24 @@
+{
+  "name": "my-extention",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "my-extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lerner Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/custom-elements": "^1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduOS/temptemp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduOS/temptemp/issues"
+  },
+  "homepage": "https://github.com/eduOS/temptemp#readme",
+  "description": ""
+}

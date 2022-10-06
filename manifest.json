@@ -1,0 +1,26 @@
+{
+  "name": "MyExtension",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "node_modules/@webcomponents/custom-elements/custom-elements.min.js",
+        "my-extension.js"
+      ]
+    }
+  ],
+  "permissions": [
+      "activeTab",
+      "scripting",
+      "contextMenus",
+      "identity"
+   ],
+   "web_accessible_resources": [{
+       "resources": [
+         "imgs/marker.svg"
+       ],
+         "matches": ["<all_urls>"]
+   }]
+}
